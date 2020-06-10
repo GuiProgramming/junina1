@@ -1,57 +1,60 @@
-#menu {
+#web {
+    display: block;
+}
+
+header {
     position: relative;
+    display: block;
+    text-align: center;
+    line-height: 150px;
     width: 100%;
     height: 200px;
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-}
-
-header {
-    position: relative;
     width: 100%;
     height: 110px;
     background: linear-gradient(125deg, rgb(67, 248, 67), rgb(235, 235, 19), rgb(255, 188, 5));
 }
 
-#logo {
-    width: auto;
-    height: 106px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#logo img {
+header img {
     width: 60px;
 }
 
-#logo span {
+header span {
     font-size: 18px;
     color: rgb(121, 4, 4);
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
 }
 
-#nav-menu ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+#nav-menu {
+    position: relative;
 }
 
-#nav-menu ul li {
-    margin: 3%;
+#nav-menu ul {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-li {
+    padding: 2vh;
 }
 
 #nav-menu a {
+    padding: 1vh;
     font-family: 'Nunito', sans-serif;
     font-size: 17px;
-    color: rgb(192, 186, 186);
-    border-radius: 4px;
-    background: rgb(214, 101, 8);
+    color: rgb(255, 247, 247);
+    border: 1px solid rgb(255, 247, 247);
+    background: tomato;
 }
 
 #nav-menu a:hover {
-    background: whitesmoke;
-    transition: all 0.8s;
+    background: rgb(206, 70, 8);
+    transition: all 0.6s;
 }

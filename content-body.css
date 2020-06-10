@@ -1,31 +1,19 @@
 #pipocas {
-    position: absolute;
-    top: 36%;
-    left: 50%;
-    transform: translate(-50%);
+    padding-top: 20px;
     text-align: center;
 }
 
 #pipocas article {
-    display: block;
+    margin: 0 8px;
+}
+
+#pipocas p {
+    color: rgb(226, 222, 222);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
-#pipocas p {
-    margin-left: 20px;
-    margin-right: 20px;
-    color: rgb(204, 201, 201);
-}
-
 #pipocas img {
-    margin-left: 14px;
-    margin-right: 14px;
     width: 300px;
-}
-
-#form-contato {
-    position: absolute;
-    top: 900px;
-    display: block;
+    height: auto;
 }
